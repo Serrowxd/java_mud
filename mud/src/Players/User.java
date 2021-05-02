@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class User {
     private final String name;
-    private final Integer level;
-    private ArrayList<String> inventory = new ArrayList<String>();
+    private Integer level;
+    private ArrayList<String> inventory;
 
     public User(final String name, Integer level, ArrayList<String> inventory) {
         this.name = name;
